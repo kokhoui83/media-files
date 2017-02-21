@@ -1,0 +1,20 @@
+bandwidth: 127106
+audio_info {
+  codec: "mp4a.40.2"
+  sampling_frequency: 44100
+  time_scale: 44100
+  num_channels: 2
+  decoder_config: "\022\020"
+}
+init_range {
+  begin: 0
+  end: 741
+}
+index_range {
+  begin: 742
+  end: 965
+}
+media_file_name: "./tmp/clear-starwars-rouge-one-128kbs.m4a"
+media_duration_seconds: 157.083
+reference_time_scale: 44100
+container_type: CONTAINER_MP4

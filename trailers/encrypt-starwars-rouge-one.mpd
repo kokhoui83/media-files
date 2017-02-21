@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generated with https://github.com/google/shaka-packager version 9ed8303-release-->
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" xmlns:cenc="urn:mpeg:cenc:2013" minBufferTime="PT2S" type="static" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" mediaPresentationDuration="PT157.083S">
+  <Period id="0">
+    <AdaptationSet id="0" contentType="video" maxWidth="1920" maxHeight="1080" maxFrameRate="24000/1001" par="16:9">
+      <Representation id="0" bandwidth="1751106" codecs="avc1.640028" mimeType="video/mp4" sar="1:1" width="1920" height="1080" frameRate="90000/3754">
+        <BaseURL>clear-starwars-rouge-one-1080p.mp4</BaseURL>
+        <SegmentBase indexRange="813-1024" timescale="90000">
+          <Initialization range="0-812"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="2" bandwidth="170238" codecs="avc1.640015" mimeType="video/mp4" sar="640:639" width="426" height="240" frameRate="24000/1001">
+        <BaseURL>clear-starwars-rouge-one-240p.mp4</BaseURL>
+        <SegmentBase indexRange="830-1029" timescale="24000">
+          <Initialization range="0-829"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="3" bandwidth="309785" codecs="avc1.64001e" mimeType="video/mp4" sar="1:1" width="640" height="360" frameRate="24000/1001">
+        <BaseURL>clear-starwars-rouge-one-360p.mp4</BaseURL>
+        <SegmentBase indexRange="811-1010" timescale="24000">
+          <Initialization range="0-810"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="4" bandwidth="486133" codecs="avc1.64001e" mimeType="video/mp4" sar="1280:1281" width="854" height="480" frameRate="24000/1001">
+        <BaseURL>clear-starwars-rouge-one-480p.mp4</BaseURL>
+        <SegmentBase indexRange="831-1030" timescale="24000">
+          <Initialization range="0-830"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="5" bandwidth="891625" codecs="avc1.64001f" mimeType="video/mp4" sar="1:1" width="1280" height="720" frameRate="24000/1001">
+        <BaseURL>clear-starwars-rouge-one-720p.mp4</BaseURL>
+        <SegmentBase indexRange="810-1009" timescale="24000">
+          <Initialization range="0-809"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="7" bandwidth="1754030" codecs="avc1.640028" mimeType="video/mp4" sar="1:1" width="1920" height="1080" frameRate="90000/3754">
+        <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="ac34c6d9-5449-5206-ad2b-618d321206eb"/>
+        <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+          <cenc:pssh>AAAAdXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAFUSEH28zAV0w1dYuesBLrkVChwSEKw0xtlUSVIGrSthjTISBusSED+pzXhM71+noaXsHyDQDWgaDXdpZGV2aW5lX3Rlc3QiCGZpbGVuYW1lSOPclZsG</cenc:pssh>
+        </ContentProtection>
+        <BaseURL>encrypt-starwars-rouge-one-1080p.mp4</BaseURL>
+        <SegmentBase indexRange="1148-1359" timescale="90000">
+          <Initialization range="0-1147"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="9" bandwidth="173161" codecs="avc1.640015" mimeType="video/mp4" sar="640:639" width="426" height="240" frameRate="24000/1001">
+        <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="7dbccc05-74c3-5758-b9eb-012eb9150a1c"/>
+        <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+          <cenc:pssh>AAAAdXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAFUSEH28zAV0w1dYuesBLrkVChwSEKw0xtlUSVIGrSthjTISBusSED+pzXhM71+noaXsHyDQDWgaDXdpZGV2aW5lX3Rlc3QiCGZpbGVuYW1lSOPclZsG</cenc:pssh>
+        </ContentProtection>
+        <BaseURL>encrypt-starwars-rouge-one-240p.mp4</BaseURL>
+        <SegmentBase indexRange="1182-1381" timescale="24000">
+          <Initialization range="0-1181"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="10" bandwidth="312707" codecs="avc1.64001e" mimeType="video/mp4" sar="1:1" width="640" height="360" frameRate="24000/1001">
+        <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="7dbccc05-74c3-5758-b9eb-012eb9150a1c"/>
+        <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+          <cenc:pssh>AAAAdXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAFUSEH28zAV0w1dYuesBLrkVChwSEKw0xtlUSVIGrSthjTISBusSED+pzXhM71+noaXsHyDQDWgaDXdpZGV2aW5lX3Rlc3QiCGZpbGVuYW1lSOPclZsG</cenc:pssh>
+        </ContentProtection>
+        <BaseURL>encrypt-starwars-rouge-one-360p.mp4</BaseURL>
+        <SegmentBase indexRange="1144-1343" timescale="24000">
+          <Initialization range="0-1143"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="11" bandwidth="489056" codecs="avc1.64001e" mimeType="video/mp4" sar="1280:1281" width="854" height="480" frameRate="24000/1001">
+        <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="7dbccc05-74c3-5758-b9eb-012eb9150a1c"/>
+        <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+          <cenc:pssh>AAAAdXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAFUSEH28zAV0w1dYuesBLrkVChwSEKw0xtlUSVIGrSthjTISBusSED+pzXhM71+noaXsHyDQDWgaDXdpZGV2aW5lX3Rlc3QiCGZpbGVuYW1lSOPclZsG</cenc:pssh>
+        </ContentProtection>
+        <BaseURL>encrypt-starwars-rouge-one-480p.mp4</BaseURL>
+        <SegmentBase indexRange="1184-1383" timescale="24000">
+          <Initialization range="0-1183"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="12" bandwidth="894546" codecs="avc1.64001f" mimeType="video/mp4" sar="1:1" width="1280" height="720" frameRate="24000/1001">
+        <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="ac34c6d9-5449-5206-ad2b-618d321206eb"/>
+        <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+          <cenc:pssh>AAAAdXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAFUSEH28zAV0w1dYuesBLrkVChwSEKw0xtlUSVIGrSthjTISBusSED+pzXhM71+noaXsHyDQDWgaDXdpZGV2aW5lX3Rlc3QiCGZpbGVuYW1lSOPclZsG</cenc:pssh>
+        </ContentProtection>
+        <BaseURL>encrypt-starwars-rouge-one-720p.mp4</BaseURL>
+        <SegmentBase indexRange="1142-1341" timescale="24000">
+          <Initialization range="0-1141"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" contentType="audio">
+      <Representation id="1" bandwidth="127106" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="44100">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>clear-starwars-rouge-one-128kbs.m4a</BaseURL>
+        <SegmentBase indexRange="742-965" timescale="44100">
+          <Initialization range="0-741"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="8" bandwidth="129741" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="44100">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="3fa9cd78-4cef-5fa7-a1a5-ec1f20d00d68"/>
+        <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+          <cenc:pssh>AAAAdXBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAFUSEH28zAV0w1dYuesBLrkVChwSEKw0xtlUSVIGrSthjTISBusSED+pzXhM71+noaXsHyDQDWgaDXdpZGV2aW5lX3Rlc3QiCGZpbGVuYW1lSOPclZsG</cenc:pssh>
+        </ContentProtection>
+        <BaseURL>encrypt-starwars-rouge-one-128kbs.m4a</BaseURL>
+        <SegmentBase indexRange="1014-1237" timescale="44100">
+          <Initialization range="0-1013"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="2" contentType="text">
+      <Representation id="6" bandwidth="256" mimeType="text/vtt">
+        <BaseURL>clear-starwars-rouge-one-en.vtt</BaseURL>
+      </Representation>
+      <Representation id="13" bandwidth="256" mimeType="text/vtt">
+        <BaseURL>encrypt-starwars-rouge-one-en.vtt</BaseURL>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

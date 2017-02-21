@@ -1,0 +1,23 @@
+bandwidth: 1751106
+video_info {
+  codec: "avc1.640028"
+  width: 1920
+  height: 1080
+  time_scale: 90000
+  frame_duration: 3754
+  decoder_config: "\001d\000(\377\341\000\035gd\000(\254\321\000x\002\'\345\300Z\200\200\200\240\000\000} \000\027p\001\343\006\"@\001\000\004h\353\357,"
+  pixel_width: 1
+  pixel_height: 1
+}
+init_range {
+  begin: 0
+  end: 812
+}
+index_range {
+  begin: 813
+  end: 1024
+}
+media_file_name: "./tmp/clear-starwars-rouge-one-1080p.mp4"
+media_duration_seconds: 157.03186
+reference_time_scale: 90000
+container_type: CONTAINER_MP4

@@ -1,0 +1,31 @@
+bandwidth: 1754030
+video_info {
+  codec: "avc1.640028"
+  width: 1920
+  height: 1080
+  time_scale: 90000
+  frame_duration: 3754
+  decoder_config: "\001d\000(\377\341\000\035gd\000(\254\321\000x\002\'\345\300Z\200\200\200\240\000\000} \000\027p\001\343\006\"@\001\000\004h\353\357,"
+  pixel_width: 1
+  pixel_height: 1
+}
+init_range {
+  begin: 0
+  end: 1147
+}
+index_range {
+  begin: 1148
+  end: 1359
+}
+media_file_name: "./tmp/encrypt-starwars-rouge-one-1080p.mp4"
+media_duration_seconds: 157.03186
+reference_time_scale: 90000
+container_type: CONTAINER_MP4
+protected_content {
+  default_key_id: "\2544\306\331TIR\006\255+a\2152\022\006\353"
+  content_protection_entry {
+    uuid: "edef8ba9-79d6-4ace-a3c8-27dcd51d21ed"
+    pssh: "\000\000\000upssh\000\000\000\000\355\357\213\251y\326J\316\243\310\'\334\325\035!\355\000\000\000U\022\020}\274\314\005t\303WX\271\353\001.\271\025\n\034\022\020\2544\306\331TIR\006\255+a\2152\022\006\353\022\020?\251\315xL\357_\247\241\245\354\037 \320\rh\032\rwidevine_test\"\010filenameH\343\334\225\233\006"
+  }
+  protection_scheme: "cenc"
+}

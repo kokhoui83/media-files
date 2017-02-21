@@ -1,0 +1,6 @@
+bandwidth: 256
+text_info {
+  format: "vtt"
+}
+media_file_name: "./tmp/clear-starwars-rouge-one-en.vtt"
+container_type: CONTAINER_TEXT
