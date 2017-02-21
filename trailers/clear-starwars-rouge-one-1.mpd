@@ -4,31 +4,31 @@
   <Period id="0">
     <AdaptationSet id="0" contentType="video" maxWidth="1920" maxHeight="1080" maxFrameRate="24000/1001" par="16:9">
       <Representation id="0" bandwidth="1751106" codecs="avc1.640028" mimeType="video/mp4" sar="1:1" width="1920" height="1080" frameRate="90000/3754">
-        <BaseURL>clear-starwars-rouge-one-1080p.mp4?raw=true</BaseURL>
+        <BaseURL>https://github.com/kokhoui83/media-files/edit/master/trailers/clear-starwars-rouge-one-1080p.mp4?raw=true</BaseURL>
         <SegmentBase indexRange="813-1024" timescale="90000">
           <Initialization range="0-812"/>
         </SegmentBase>
       </Representation>
       <Representation id="2" bandwidth="170238" codecs="avc1.640015" mimeType="video/mp4" sar="640:639" width="426" height="240" frameRate="24000/1001">
-        <BaseURL>clear-starwars-rouge-one-240p.mp4?raw=true</BaseURL>
+        <BaseURL>https://github.com/kokhoui83/media-files/edit/master/trailers/clear-starwars-rouge-one-240p.mp4?raw=true</BaseURL>
         <SegmentBase indexRange="830-1029" timescale="24000">
           <Initialization range="0-829"/>
         </SegmentBase>
       </Representation>
       <Representation id="3" bandwidth="309785" codecs="avc1.64001e" mimeType="video/mp4" sar="1:1" width="640" height="360" frameRate="24000/1001">
-        <BaseURL>clear-starwars-rouge-one-360p.mp4?raw=true</BaseURL>
+        <BaseURL>https://github.com/kokhoui83/media-files/edit/master/trailers/clear-starwars-rouge-one-360p.mp4?raw=true</BaseURL>
         <SegmentBase indexRange="811-1010" timescale="24000">
           <Initialization range="0-810"/>
         </SegmentBase>
       </Representation>
       <Representation id="4" bandwidth="486133" codecs="avc1.64001e" mimeType="video/mp4" sar="1280:1281" width="854" height="480" frameRate="24000/1001">
-        <BaseURL>clear-starwars-rouge-one-480p.mp4?raw=true</BaseURL>
+        <BaseURL>https://github.com/kokhoui83/media-files/edit/master/trailers/clear-starwars-rouge-one-480p.mp4?raw=true</BaseURL>
         <SegmentBase indexRange="831-1030" timescale="24000">
           <Initialization range="0-830"/>
         </SegmentBase>
       </Representation>
       <Representation id="5" bandwidth="891625" codecs="avc1.64001f" mimeType="video/mp4" sar="1:1" width="1280" height="720" frameRate="24000/1001">
-        <BaseURL>clear-starwars-rouge-one-720p.mp4?raw=true</BaseURL>
+        <BaseURL>https://github.com/kokhoui83/media-files/edit/master/trailers/clear-starwars-rouge-one-720p.mp4?raw=true</BaseURL>
         <SegmentBase indexRange="810-1009" timescale="24000">
           <Initialization range="0-809"/>
         </SegmentBase>
@@ -37,7 +37,7 @@
     <AdaptationSet id="1" contentType="audio">
       <Representation id="1" bandwidth="127106" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="44100">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
-        <BaseURL>clear-starwars-rouge-one-128kbs.m4a?raw=true</BaseURL>
+        <BaseURL>https://github.com/kokhoui83/media-files/edit/master/trailers/clear-starwars-rouge-one-128kbs.m4a?raw=true</BaseURL>
         <SegmentBase indexRange="742-965" timescale="44100">
           <Initialization range="0-741"/>
         </SegmentBase>
@@ -45,7 +45,7 @@
     </AdaptationSet>
     <AdaptationSet id="2" contentType="text">
       <Representation id="6" bandwidth="256" mimeType="text/vtt">
-        <BaseURL>clear-starwars-rouge-one-en.vtt?raw=true</BaseURL>
+        <BaseURL>https://github.com/kokhoui83/media-files/edit/master/trailers/clear-starwars-rouge-one-en.vtt?raw=true</BaseURL>
       </Representation>
     </AdaptationSet>
   </Period>
